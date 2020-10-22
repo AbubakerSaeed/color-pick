@@ -4,12 +4,38 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Pick.</title>
+    <title>Color Pick. – Pick colors from around you for your next project</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
   </head>
 
   <body>
 
-    <h1>Color Pick.</h1>
+    <h1 class="word" style="--h: 140, --s: paused">
+      <span class="s" style="--c: hsl(calc(var(--h) + 40), 60%, 60%); --d: .7s">Color Pick.</span>
+      <span class="s" style="--c: hsl(calc(var(--h) + 20), 70%, 60%); --d: .6s">Color Pick.</span>
+      <span class="s" style="--c: hsl(var(--h), 80%, 60%); --d: .5s">Color Pick.</span>
+      <span class="s" style="--c: hsl(calc(var(--h) + 20), 100%, 60%); --d: .4s">Color Pick.</span>
+      <span>Color Pick.</span>
+    </h1>
+    <p>Pick colors from around you for your next project.</p>
+    <p>Follow <a href="https://twitter.com/AbubakerSaeed96" rel="noopener noreferrer">@AbubakerSaeed96</a> on twitter to stay tuned!</p>
+
+    <video src="./color-pick-demo.mp4" loop muted>
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+
+    <script>
+      window.onload = () => {
+        let word = document.querySelector(".word").style;
+
+        document.querySelector("video").play();
+        word.setProperty("--s", "running");
+        setInterval(() => {
+          word.setProperty("--h", Math.random() * 360);
+        }, 3000)
+      }
+
+    </script>
 
   </body>
 
