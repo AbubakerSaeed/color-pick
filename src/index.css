@@ -1,0 +1,73 @@
+/* DEFAULT */
+/* --------------------------------------- */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  color: #000;
+  background: hsl(0, 0%, 95%);
+}
+
+:root {
+  --body-color: #A8A8A8;
+  --body-color-hover: #B9B9B9;
+  --bg-bars: #FFFFFF;
+  --bg-canvas: #F5F5F5;
+  --primary: #6EAFFB;
+  --primary-hover: #83BCFF;
+  --tool-active-color: #FFFFFF;
+  --tool-active-bg: var(--primary);
+  --input-color: #A8A8A8;
+  --input-bg: #F5F5F5;
+  --input-color-focus: #969696;
+  --input-bg-focus: #F0F0F0;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  overflow-y: hidden;
+
+  color: var(--body-color);
+  background: var(--bg-canvas);
+
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  color: inherit;
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
+svg {
+  pointer-events: none;
+}
+
+canvas {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+input[type="range"]:focus {
+  outline: 0;
+}

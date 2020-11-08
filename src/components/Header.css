@@ -1,0 +1,115 @@
+/* HEADER */
+/* --------------------------------------- */
+.header {
+  height: var(--header-size);
+  background: var(--bg-bars);
+  border-bottom: 1px solid var(--gutter-border-color);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+.header__logo {
+  width: var(--left-bar-size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header__logo h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  font-size: .4rem;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.header__logo svg {
+  transform: translateY(-1px);
+  height: 4rem;
+}
+
+.header__actions {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+
+.header__editor {
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 2.6rem;
+  padding: .8rem 2.6rem;
+  border-right: 1px solid var(--gutter-border-color);
+}
+
+.header__editor-actions {
+  display: flex;
+}
+
+.header__editor-action:not(:first-child) {
+  margin-left: 2.8rem;
+}
+
+.header__editor-btn {
+  font-size: inherit;
+  transition: color .1s;
+  position: relative;
+}
+
+.header__editor-btn>svg {
+  --stroke-width: 2;
+  height: 1em;
+
+  position: absolute;
+  left: -1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: .6;
+}
+
+.header__editor-btn:hover>svg,
+.header__editor-btn:focus>svg {
+  opacity: 1;
+  color: var(--primary);
+}
+
+.header__editor-btn:hover,
+.header__editor-btn:focus {
+  color: var(--body-color-hover);
+}
+
+.header__support {
+  width: var(--right-bar-size);
+  text-align: center;
+}
+
+.header__support-btn {
+  color: #fff;
+  background: var(--primary);
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  transition: background .1s;
+}
+
+.header__support-btn>svg {
+  --stroke-width: 2;
+  height: 1.2em;
+  margin-right: 4px;
+}
+
+.header__support-btn:hover,
+.header__support-btn:focus {
+  background: var(--primary-hover);
+}

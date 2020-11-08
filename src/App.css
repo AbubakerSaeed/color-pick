@@ -1,0 +1,29 @@
+/* APP */
+/* --------------------------------------- */
+
+#app {
+  --header-size: 4.4rem;
+  --gutter-border-color: #eaeaea;
+  --left-bar-size: 4.4rem;
+  --right-bar-size: 18rem;
+
+  min-width: 1024px;
+}
+
+/* MAIN */
+/* --------------------------------------- */
+main {
+  --height: calc(100vh - var(--header-size));
+
+  height: var(--height);
+  max-height: var(--height);
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* SIMPLE-BAR */
+/* --------------------------------------- */
+.simplebar-scrollbar::before {
+  background: hsla(0, 0%, 40%, .6);
+  border: 1px solid hsla(0, 0%, 60%, .8);
+}

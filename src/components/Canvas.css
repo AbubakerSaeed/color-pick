@@ -1,0 +1,36 @@
+/* CANVAS */
+/* --------------------------------------- */
+.canvas {
+  flex: 2;
+  position: relative;
+}
+
+.canvas__toolbar {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  padding: 1.1rem 1.6rem;
+  border-radius: 8px;
+  background: var(--bg-bars);
+  opacity: .4;
+  transition: opacity .3s;
+}
+
+.canvas__toolbar---pick {
+  opacity: 1;
+  padding: 0;
+  border-radius: 0;
+}
+
+.canvas__toolbar:hover,
+.canvas__toolbar:focus-within {
+  opacity: 1;
+}
+
+.canvas__options {
+  justify-content: center;
+  align-items: center;
+}

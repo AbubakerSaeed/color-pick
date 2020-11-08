@@ -1,0 +1,9 @@
+/* PICK */
+/* --------------------------------------- */
+.pick {}
+
+.pick__color-preview {
+  --size: 4rem;
+  width: var(--size);
+  height: var(--size);
+}

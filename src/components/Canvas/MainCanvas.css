@@ -1,0 +1,26 @@
+/* MAIN */
+/* --------------------------------------- */
+.main {
+  min-height: var(--height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__image-wrap {
+  display: flex;
+  position: relative;
+  background: var(--bg-bars);
+  box-shadow: 0px 7px 55px 4px hsla(0, 0%, 0%, 0.13);
+}
+
+.main__image {
+  opacity: 0;
+}
+
+.main__canvas {
+  cursor: inherit;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
