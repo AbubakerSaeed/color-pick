@@ -6,7 +6,7 @@ A free modern-looking, clean, and minimal web-based application to pick colors f
 
 🥰 [Live, start picking colors now!](https://colorpick.vercel.app)
 
-🎉 [Twitter](https://twitter.com/AbubakerSaeed96) | [Dribbble](https://dribbble.com/AbubakerSaeed)
+🎉 [Twitter](https://twitter.com/AbubakerSaeed96/status/1325408887424610304) | [Dribbble](https://dribbble.com/shots/14542480-Color-Pick-Launch)
 
 ---
 

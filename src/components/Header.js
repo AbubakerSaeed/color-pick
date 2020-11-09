@@ -98,9 +98,9 @@ function Header({
 
             <p>
               If you have a Twitter social network account, please use and like
-              this product{" "}
+              this product 🎉{" "}
               <a
-                href="https://twitter.com/AbubakerSaeed96"
+                href="https://twitter.com/AbubakerSaeed96/status/1325408887424610304"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -112,7 +112,7 @@ function Header({
             <p>
               The project source code is open-source and is available on{" "}
               <a
-                href="https://github.com/AbubakerSaeed"
+                href="https://github.com/AbubakerSaeed/color-pick"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -173,7 +173,7 @@ function Header({
             </div>
 
             <p>
-              Lastly, if you like to work with me,{" "}
+              Lastly, if you like to work with me, 🌲{" "}
               <a href="mailto:abubaker.saeed.1996@gmail.com">hire me</a>. I am
               available for{" "}
               <a

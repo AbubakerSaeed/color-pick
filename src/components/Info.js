@@ -165,7 +165,7 @@ function Info({ selectedColors, setSelectedColors }) {
         </p>
         <div className="info__launch-links">
           <a
-            href="https://twitter.com/AbubakerSaeed96"
+            href="https://twitter.com/AbubakerSaeed96/status/1325408887424610304"
             target="_blank"
             rel="noopener noreferrer"
             className="info__link"
@@ -173,7 +173,7 @@ function Info({ selectedColors, setSelectedColors }) {
             <IconTwitter />
           </a>
           <a
-            href="https://github.com/AbubakerSaeed"
+            href="https://github.com/AbubakerSaeed/color-pick"
             target="_blank"
             rel="noopener noreferrer"
             className="info__link"
@@ -181,12 +181,26 @@ function Info({ selectedColors, setSelectedColors }) {
             <IconGitHub />
           </a>
           <a
-            href="https://dribbble.com/AbubakerSaeed"
+            href="https://dribbble.com/shots/14542480-Color-Pick-Launch"
             target="_blank"
             rel="noopener noreferrer"
             className="info__link"
           >
             <IconDribble />
+          </a>
+        </div>
+        <div className="product-hunt" style={{ marginTop: "12px" }}>
+          <a
+            href="https://www.producthunt.com/posts/color-pick?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-color-pick"
+            target="_blank"
+          >
+            <img
+              src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=274059&theme=light"
+              alt="Color Pick - Pick colors from around you for your next project | Product Hunt"
+              style={{ width: "250px", height: "54px" }}
+              width="250"
+              height="54"
+            />
           </a>
         </div>
       </footer>
